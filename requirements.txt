@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+biopython
+sklearn
+hdbscan
+notebook
+seaborn
