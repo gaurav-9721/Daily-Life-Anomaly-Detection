@@ -21,7 +21,7 @@ conda install -r requirements.txt
 ### Datasets
 Download original datasets [here](http://casas.wsu.edu/datasets/).
 
-Download processed data [here](https://drive.google.com/drive/folders/1iGBr2piZzOHTKmd3eO6cfMfFLZv5iCrV?usp=sharing). 
+Download processed data [here](https://drive.google.com/drive/folders/1gDY_Z3yUJGe7hXTN0m9vy7ZTWafw0i7n?usp=sharing). 
 Save this data to your cloned repository and replace the with the folder *CASAS_DATA*.
 
 ### How to use?
