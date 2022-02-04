@@ -27,6 +27,9 @@ short = {
 }
 
 def get_day_sequence(dataset, day):
+
+    # Note: replace 'processed_data' in path string to 'filling' for fillied data
+	
     readpath = 'CASAS_DATA\\' +dataset+ r'\processed_data\Day' + str(day) + '.csv'
     df = pd.read_csv(readpath)
     Act = list(df['Activity'])
@@ -57,6 +60,9 @@ def save_sequences(dataset):
         'Day': days,
         'Sequence': normal_seqs
     })
+
+    # Note: replace 'Activities' in path string to 'Filled_Activities' for fillied data
+    
     savepath = r'D:\Daily Life Anomaly Detection\CASAS_DATA\\' + dataset + r'\Activities\Sequence.csv'
     seq_df.to_csv(savepath, index=False)
     print(savepath, 'written successfully')
